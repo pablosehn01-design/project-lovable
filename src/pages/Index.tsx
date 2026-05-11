@@ -1,4 +1,10 @@
 import { useState, useEffect } from "react";
+
+declare global {
+  interface Window {
+    fbq: any;
+  }
+}
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 import {
@@ -148,18 +154,17 @@ const Index = () => {
               WORKSHOP ONLINE E AO VIVO
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight">
-              Como fazer seu e-commerce{" "}
-              <span className="text-primary">vender mais em 2026</span>{" "}
-              sem investir mais em tráfego pago
+              Aprenda como usar{" "}
+              <span className="text-primary">IA no seu e-commerce</span>{" "}
             </h1>
             <p className="mt-6 text-muted-foreground text-lg max-w-xl">
               Um workshop prático para donos de e-commerce que já vendem, mas querem mais
-              previsibilidade, conversão e lucro.
+              previsibilidade, ganhar produtividade, aumentar conversão e lucro.
             </p>
 
             <ul className="mt-8 space-y-3">
               {[
-                "Descubra os vazamentos que travam suas vendas",
+                "Aprenda como usar IA no seu e-commerce",
                 "Aprenda como vender mais com a mesma verba",
                 "Entenda o sistema por trás dos e-commerces que crescem",
               ].map((t) => (
@@ -286,7 +291,7 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
               { icon: Target, text: "Já investe em tráfego, mas sente que o retorno travou" },
-              { icon: ShoppingCart, text: "Tem e-commerce ativo, mas falta previsibilidade" },
+              { icon: ShoppingCart, text: "Tem e-commerce ativo, e quer usar IA com estratégia" },
               { icon: TrendingUp, text: "Quer melhorar conversão sem depender só de mais anúncios" },
               { icon: Settings, text: "Sabe que o problema não é só tráfego, mas a estrutura da operação" },
             ].map(({ icon: Icon, text }) => (
@@ -311,7 +316,7 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
             {[
               { icon: Crosshair, title: "1. Posicionamento que vende", desc: "Como se diferenciar no mercado e comunicar para quem realmente compra." },
-              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Estrutura, UX e provas que aumentam confiança e geram mais vendas." },
+              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Como usar a IA para montar campanhas, criativos e roteiros para suas campanhas." },
               { icon: Megaphone, title: "3. Campanhas que geram movimento", desc: "Como montar campanhas lucrativas com foco em oferta e margem." },
               { icon: Users, title: "4. CRM + automação + recompra", desc: "Transforme clientes em compradores recorrentes." },
               { icon: PieChart, title: "5. Tráfego com inteligência", desc: "Analytics, dados e testes para escalar sem desperdício." },

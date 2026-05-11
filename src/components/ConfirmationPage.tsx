@@ -1,4 +1,10 @@
 import { useEffect } from "react";
+
+declare global {
+  interface Window {
+    fbq: any;
+  }
+}
 import { Calendar, Radio, User, ShoppingCart, Lock, MessageCircle } from "lucide-react";
 import heroChart from "@/assets/hero-chart.jpg";
 
