@@ -315,7 +315,7 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
             {[
               { icon: Crosshair, title: "1. Posicionamento que vende", desc: "Como se diferenciar no mercado e comunicar para quem realmente compra." },
-              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Aprenda quais dados analisar e como otimizar com inteligência suas campanhas. " },
+              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Aprenda como montar uma loja virtual que vende todos os dias. " },
               { icon: Megaphone, title: "3. Campanhas que geram movimento", desc: "Como montar campanhas lucrativas com foco em oferta e margem." },
               { icon: Users, title: "4. CRM + automação + recompra", desc: "Transforme clientes em compradores recorrentes." },
               { icon: PieChart, title: "5. Tráfego com inteligência", desc: "Analytics, dados e testes para escalar sem desperdício." },
