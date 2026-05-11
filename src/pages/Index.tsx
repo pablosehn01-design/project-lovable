@@ -154,9 +154,8 @@ const Index = () => {
               WORKSHOP ONLINE E AO VIVO
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight">
-              Como fazer seu e-commerce{" "}
-              <span className="text-primary">vender mais em 2026</span>{" "}
-              sem investir mais em tráfego pago
+              Aprenda como usar{" "}
+              <span className="text-primary">IA no seu e-commerce</span>{" "}
             </h1>
             <p className="mt-6 text-muted-foreground text-lg max-w-xl">
               Um workshop prático para donos de e-commerce que já vendem, mas querem mais
