@@ -153,9 +153,8 @@ const Index = () => {
             <p className="text-primary font-bold tracking-widest text-sm mb-5">
               WORKSHOP ONLINE E AO VIVO
             </p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight">
-              Aprenda como usar{" "}
-              <span className="text-primary">IA no seu e-commerce</span>{" "}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight text-slate-50">
+              Como fazer seu e commerce vender mais em 2026 sem investir mais em tráfego pago{" "}
             </h1>
             <p className="mt-6 text-muted-foreground text-lg max-w-xl">
               Um workshop prático para donos de e-commerce que já vendem, mas querem mais
@@ -316,7 +315,7 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
             {[
               { icon: Crosshair, title: "1. Posicionamento que vende", desc: "Como se diferenciar no mercado e comunicar para quem realmente compra." },
-              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Aprenda quais dados analisar e como otimizar com inteligência suas campanhas. " },
+              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Aprenda como montar uma loja virtual que vende todos os dias. " },
               { icon: Megaphone, title: "3. Campanhas que geram movimento", desc: "Como montar campanhas lucrativas com foco em oferta e margem." },
               { icon: Users, title: "4. CRM + automação + recompra", desc: "Transforme clientes em compradores recorrentes." },
               { icon: PieChart, title: "5. Tráfego com inteligência", desc: "Analytics, dados e testes para escalar sem desperdício." },
