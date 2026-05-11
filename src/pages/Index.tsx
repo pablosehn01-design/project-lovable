@@ -1,4 +1,10 @@
 import { useState, useEffect } from "react";
+
+declare global {
+  interface Window {
+    fbq: any;
+  }
+}
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 import {
