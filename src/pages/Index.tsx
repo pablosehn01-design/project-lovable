@@ -316,7 +316,7 @@ const Index = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
             {[
               { icon: Crosshair, title: "1. Posicionamento que vende", desc: "Como se diferenciar no mercado e comunicar para quem realmente compra." },
-              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Como usar a IA para montar campanhas, criativos e roteiros para suas campanhas." },
+              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Aprenda quais dados analisar e como otimizar com inteligência suas campanhas. " },
               { icon: Megaphone, title: "3. Campanhas que geram movimento", desc: "Como montar campanhas lucrativas com foco em oferta e margem." },
               { icon: Users, title: "4. CRM + automação + recompra", desc: "Transforme clientes em compradores recorrentes." },
               { icon: PieChart, title: "5. Tráfego com inteligência", desc: "Analytics, dados e testes para escalar sem desperdício." },
@@ -375,7 +375,7 @@ const Index = () => {
                 </p>
                 <p>
                   Hoje, Pablo já ajudou a acelerar <span className="text-foreground font-semibold">mais de 100 marcas</span>,
-                  gerando <span className="text-foreground font-semibold">mais de R$10 milhões</span> para clientes,
+                  gerando <span className="text-foreground font-semibold">mais de R$20 milhões</span> para clientes,
                   sempre com foco em transformar tráfego, posicionamento e operação em
                   crescimento real.
                 </p>
@@ -388,7 +388,7 @@ const Index = () => {
                 </li>
                 <li className="flex items-start gap-3 p-4 rounded-lg bg-secondary/50 border border-border">
                   <BarChart3 className="text-primary shrink-0 mt-0.5" size={22} />
-                  <span className="text-sm font-medium">+R$10 milhões gerados para clientes</span>
+                  <span className="text-sm font-medium">+R$20 milhões gerados para clientes</span>
                 </li>
                 <li className="flex items-start gap-3 p-4 rounded-lg bg-secondary/50 border border-border">
                   <Star className="text-primary shrink-0 mt-0.5" size={22} />
