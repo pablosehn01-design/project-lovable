@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 declare global {
   interface Window {
@@ -78,12 +78,6 @@ const Index = () => {
   const [submitting, setSubmitting] = useState(false);
   const navigate = useNavigate();
 
-  // Meta Pixel — PageView
-  useEffect(() => {
-    if (typeof window.fbq === "function") {
-      window.fbq("track", "PageView");
-    }
-  }, []);
 
   const APPS_SCRIPT_URL =
     "https://script.google.com/macros/s/AKfycbxrmwfMPl5-8uGvsIRutSVVoguLgJGUyQIkhe5sW478HORrPculmDOlIC7YDPsexVMF/exec";
@@ -118,6 +112,9 @@ const Index = () => {
         body: JSON.stringify(payload),
       });
 
+      if (typeof window.fbq === "function") {
+        window.fbq("track", "Lead");
+      }
       setForm({ name: "", email: "", whatsapp: "", instagram: "", site: "", revenue: "" });
       navigate("/obrigado");
     } catch (err) {
