@@ -148,35 +148,21 @@ const Index = () => {
           {/* Left */}
           <div>
             <p className="text-primary font-bold tracking-widest text-sm mb-5">
-              WORKSHOP ONLINE E AO VIVO
+              WORKSHOP GRATUITO
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight text-slate-50">
-              Como fazer seu e- commerce vender mais em 2026 sem investir mais em tráfego pago
+              COMO USAR A IA PARA FAZER SUA LOJA VENDER MAIS
             </h1>
             <p className="mt-6 text-muted-foreground text-lg max-w-xl">
-              Um workshop prático para donos de e-commerce que já vendem, mas querem mais
-              previsibilidade, ganhar produtividade, aumentar conversão e lucro.
+              Descubra como utilizar Inteligência Artificial para criar conteúdo, analisar dados, economizar horas de trabalho e aumentar suas vendas usando as mesmas ferramentas que utilizamos diariamente na AVØRO.
             </p>
-
-            <ul className="mt-8 space-y-3">
-              {[
-                "Aprenda como usar IA no seu e-commerce",
-                "Aprenda como vender mais com a mesma verba",
-                "Entenda o sistema por trás dos e-commerces que crescem",
-              ].map((t) => (
-                <li key={t} className="flex items-start gap-3">
-                  <CheckCircle2 className="text-primary shrink-0 mt-0.5" size={20} />
-                  <span className="text-foreground/90">{t}</span>
-                </li>
-              ))}
-            </ul>
 
             <Button
               onClick={scrollToForm}
               size="lg"
               className="btn-primary-grad text-primary-foreground border-0 font-bold text-base mt-10 h-14 px-10 w-full sm:w-auto"
             >
-              QUERO ME INSCREVER
+              QUERO PARTICIPAR
             </Button>
 
             <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
@@ -184,9 +170,9 @@ const Index = () => {
                 <Radio size={16} className="text-primary" /> Evento online e ao vivo
               </span>
               <span className="text-primary">●</span>
-              <span className="font-semibold text-foreground">20 de maio · 20h</span>
+              <span className="font-semibold text-foreground">25 de Junho de 2026 · 20h00</span>
               <span className="text-primary">●</span>
-              <span>com Pablo Sehn</span>
+              <span>Online e Gratuito</span>
             </div>
           </div>
 
@@ -278,18 +264,44 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Para você que */}
+      {/* A IA não vai substituir sua loja */}
+      <section className="py-20 bg-card/40">
+        <div className="container mx-auto max-w-3xl text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            A IA NÃO VAI SUBSTITUIR SUA LOJA.
+          </h2>
+          <p className="text-3xl md:text-4xl font-bold text-primary mb-10">
+            MAS UMA LOJA QUE USA IA PODE SUBSTITUIR A SUA.
+          </p>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            Enquanto muitos lojistas ainda perdem horas criando posts, escrevendo descrições de produtos, analisando planilhas e tentando entender seus números, outros estão utilizando Inteligência Artificial para fazer tudo isso em minutos.
+          </p>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            A diferença não está na tecnologia.
+          </p>
+          <p className="text-foreground text-lg leading-relaxed font-semibold">
+            Está em saber usar ela da forma certa.
+          </p>
+          <p className="text-muted-foreground text-lg leading-relaxed mt-6">
+            Neste workshop você vai aprender exatamente como aplicar a IA no dia a dia da sua operação para vender mais e ganhar produtividade.
+          </p>
+        </div>
+      </section>
+
+      {/* Para quem é este workshop */}
       <section id="sobre" className="py-20">
         <div className="container mx-auto">
           <h2 className="text-center text-3xl md:text-4xl font-bold mb-12">
-            Esse workshop <span className="text-primary">é para você que…</span>
+            PARA QUEM É <span className="text-primary">ESTE WORKSHOP</span>
           </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { icon: Target, text: "Já investe em tráfego, mas sente que o retorno travou" },
-              { icon: ShoppingCart, text: "Tem e-commerce ativo, e quer usar IA com estratégia" },
-              { icon: TrendingUp, text: "Quer melhorar conversão sem depender só de mais anúncios" },
-              { icon: Settings, text: "Sabe que o problema não é só tráfego, mas a estrutura da operação" },
+              { icon: Users, text: "Donos de lojas virtuais" },
+              { icon: TrendingUp, text: "Empresas que querem vender mais online" },
+              { icon: Instagram, text: "Marcas que produzem conteúdo para redes sociais" },
+              { icon: Megaphone, text: "Gestores de marketing" },
+              { icon: ShoppingCart, text: "Equipes comerciais" },
+              { icon: Lightbulb, text: "Quem quer ganhar produtividade utilizando IA" },
             ].map(({ icon: Icon, text }) => (
               <div key={text} className="card-surface p-6 hover:border-primary/40 transition">
                 <Icon className="text-primary mb-4" size={32} />
@@ -304,18 +316,16 @@ const Index = () => {
       <section id="conteudo" className="py-20 bg-card/40">
         <div className="container mx-auto">
           <h2 className="text-center text-3xl md:text-4xl font-bold">
-            O que <span className="text-primary">você vai aprender</span>
+            O QUE VOCÊ VAI <span className="text-primary">APRENDER</span>
           </h2>
-          <p className="text-center text-muted-foreground mt-3 mb-12">
-            O método AVØRO aplicado ao crescimento real do seu e-commerce.
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
             {[
-              { icon: Crosshair, title: "1. Posicionamento que vende", desc: "Como se diferenciar no mercado e comunicar para quem realmente compra." },
-              { icon: ShoppingCart, title: "2. Site preparado para conversão", desc: "Aprenda como montar uma loja virtual que vende todos os dias. " },
-              { icon: Megaphone, title: "3. Campanhas que geram movimento", desc: "Como montar campanhas lucrativas com foco em oferta e margem." },
-              { icon: Users, title: "4. CRM + automação + recompra", desc: "Transforme clientes em compradores recorrentes." },
-              { icon: PieChart, title: "5. Tráfego com inteligência", desc: "Analytics, dados e testes para escalar sem desperdício." },
+              { icon: Megaphone, title: "Criar conteúdos em minutos", desc: "Aprenda a criar calendários de conteúdo, legendas, roteiros para vídeos, campanhas promocionais e ideias de posts usando IA." },
+              { icon: ShoppingCart, title: "Escrever descrições que ajudam a vender", desc: "Transforme descrições simples em textos mais profissionais e persuasivos para sua loja virtual." },
+              { icon: BarChart3, title: "Analisar números sem depender de planilhas complexas", desc: "Descubra como utilizar IA para entender seus resultados, identificar oportunidades e tomar decisões mais rápidas." },
+              { icon: Sparkles, title: "Criar imagens para campanhas", desc: "Veja como gerar imagens profissionais para anúncios, redes sociais e banners para seu e-commerce." },
+              { icon: Settings, title: "Organizar sua operação", desc: "Aprenda como utilizar IA para criar processos, checklists, planejamentos e documentos para sua equipe." },
+              { icon: Crosshair, title: "Criar ferramentas personalizadas", desc: "Veja na prática como construir pequenos sistemas e dashboards para analisar dados da sua operação sem precisar programar." },
             ].map(({ icon: Icon, title, desc }) => (
               <div key={title} className="card-surface p-6">
                 <div className="h-32 rounded-lg bg-gradient-to-br from-primary/20 to-transparent flex items-center justify-center mb-5 border border-primary/20">
@@ -326,6 +336,24 @@ const Index = () => {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Quem somos */}
+      <section className="py-20">
+        <div className="container mx-auto max-w-3xl text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            QUEM <span className="text-primary">SOMOS</span>
+          </h2>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            A AVØRO é uma aceleradora de marcas e e-commerces.
+          </p>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            Todos os dias utilizamos Inteligência Artificial para otimizar processos, criar campanhas, gerar conteúdos, analisar dados e ajudar nossos clientes a crescer.
+          </p>
+          <p className="text-foreground text-lg leading-relaxed font-semibold">
+            Agora vamos mostrar como você também pode aplicar essas estratégias na sua operação.
+          </p>
         </div>
       </section>
 
@@ -400,24 +428,39 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Por que ao vivo */}
+      {/* O que você vai ver ao vivo */}
       <section className="py-20 bg-card/40">
-        <div className="container mx-auto">
-          <h2 className="text-center text-3xl md:text-4xl font-bold mb-12">
-            Por que participar <span className="text-primary">ao vivo?</span>
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-center text-3xl md:text-4xl font-bold mb-6">
+            O QUE VOCÊ VAI VER <span className="text-primary">AO VIVO</span>
           </h2>
-          <div className="grid md:grid-cols-2 gap-5 max-w-4xl mx-auto">
+          <p className="text-center text-muted-foreground text-lg mb-12">
+            Durante o workshop vamos abrir o ChatGPT e outras ferramentas de IA ao vivo.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
             {[
-              { icon: Users, title: "Diagnóstico coletivo", desc: "Análise de cenários reais e respostas para os principais desafios do e-commerce." },
-              { icon: Lightbulb, title: "Visão prática", desc: "Conteúdo direto ao ponto, com exemplos aplicáveis no seu negócio." },
-            ].map(({ icon: Icon, title, desc }) => (
-              <div key={title} className="card-surface p-8">
-                <Icon className="text-primary mb-4" size={32} />
-                <h3 className="font-bold text-lg mb-2">{title}</h3>
-                <p className="text-sm text-muted-foreground">{desc}</p>
+              "Criar um calendário completo de conteúdo",
+              "Criar descrições para produtos",
+              "Criar legendas para Instagram",
+              "Criar campanhas promocionais",
+              "Gerar imagens para anúncios",
+              "Analisar dados da loja",
+              "Criar gráficos automaticamente",
+              "Construir uma página para visualizar indicadores",
+              "Economizar horas de trabalho toda semana",
+            ].map((text) => (
+              <div key={text} className="flex items-start gap-3 p-4 rounded-lg bg-secondary/50 border border-border">
+                <CheckCircle2 className="text-primary shrink-0 mt-0.5" size={22} />
+                <span className="text-sm font-medium">{text}</span>
               </div>
             ))}
           </div>
+          <p className="text-center text-muted-foreground text-lg mt-10">
+            Nada de teoria.
+          </p>
+          <p className="text-center text-foreground text-lg font-semibold">
+            Você verá exatamente como fazemos isso dentro da AVØRO.
+          </p>
         </div>
       </section>
 
@@ -433,17 +476,20 @@ const Index = () => {
             />
             <div className="relative">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Sua loja não precisa só de mais tráfego.
+                GARANTA SUA VAGA GRATUITA
               </h2>
-              <p className="text-3xl md:text-4xl font-bold text-primary mt-2">
-                Precisa de um sistema que converte.
+              <p className="text-muted-foreground text-lg mt-4 mb-2">
+                A participação é gratuita, mas as vagas são limitadas.
+              </p>
+              <p className="text-muted-foreground text-lg mb-8">
+                Clique no botão abaixo e reserve seu lugar.
               </p>
               <Button
                 onClick={scrollToForm}
                 size="lg"
-                className="btn-primary-grad text-primary-foreground border-0 font-bold text-base mt-8 h-14 px-10"
+                className="btn-primary-grad text-primary-foreground border-0 font-bold text-base mt-2 h-14 px-10"
               >
-                GARANTIR MINHA VAGA AGORA
+                QUERO PARTICIPAR DO WORKSHOP
               </Button>
               <p className="flex items-center justify-center gap-2 text-xs text-muted-foreground mt-4">
                 <Lock size={12} /> Vagas gratuitas e limitadas
